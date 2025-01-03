@@ -7,7 +7,7 @@ try:
     browser.get("http://suninjuly.github.io/huge_form.html")
     elements = browser.find_elements(By.TAG_NAME, "input")
     for element in elements:
-        element.send_keys("Testtttttttttttttttttt")
+        element.send_keys("Vi_test")
 
         browser.execute_script(
             "arguments[0].scrollIntoView({ behavior: 'instant', block: 'center', inline: 'center' });",
