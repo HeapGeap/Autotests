@@ -4,9 +4,10 @@ import random
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-import math#
+import math  #
 
 link = "http://suninjuly.github.io/alert_accept.html"
+
 
 def calc(x):
     return str(math.log(abs(12 * math.sin(int(x)))))
