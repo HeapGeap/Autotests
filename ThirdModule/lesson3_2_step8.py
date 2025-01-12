@@ -6,3 +6,12 @@ expected_result = int(input("Введите ожидаемый результа�
 actual_result = int(input("Введите фактический результат : "))
 
 test_input_text(expected_result, actual_result)
+
+# s = 'My Name is Julia'
+#
+# if 'Name' in s:
+#     print('Substring found')
+#
+# index = s.find('Name')
+# if index != -1:
+#     print(f'Substring found at index {index}')
